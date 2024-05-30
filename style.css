@@ -1,0 +1,116 @@
+body {
+    background-color: #d62828;
+    color: rgb(30, 30, 30);
+    font-family: "poesten one", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2 {
+    font-family: Courier, monospace;
+}
+
+h1 {
+    color: red;
+    font-weight: 100;
+    letter-spacing: 2px;
+    font-size: 4rem;
+}
+
+h2 {
+    color: red;
+    font-size: 1.5rem;
+    font-weight: lighter;
+}
+
+a {
+    text-decoration: none;
+    color: red;
+    font-weight: bold;
+}
+
+a:hover {
+    color: #FF5733;
+}
+
+.container {
+    width: 90%;
+    max-width: 700px;
+    margin: 40px auto;
+}
+
+@media (max-width: 760px) {
+    .container {
+        width: 90%;
+    }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    h2 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .container {
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 2.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+}
+
+.card-white {
+    background-color: #ee964b;
+    padding: 2rem;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin: 1rem 0;
+    text-align: center;
+}
+
+.img-circle {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+}
+
+.btn-blue {
+    background-color: black;
+    color: #FFD0EC;
+    padding: 1rem 1.25rem;
+    border-radius: 4px;
+    display: inline-block;
+    margin-top: 1rem;
+}
+
+.btn-blue:hover {
+    background-color: blueviolet;
+    color: #588157;
+}
+
+.list-inline {
+    list-style: none;
+    padding-left: 0;
+}
+
+.list-inline li {
+    display: inline;
+    padding: 0.5rem;
+}
+
+.list-inline {
+    font-size: 2rem;
+}
+
+#introduction p {
+    margin-bottom: 2rem;
+}
